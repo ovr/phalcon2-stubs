@@ -17,7 +17,7 @@ class Response implements \Phalcon\Http\ResponseInterface, \Phalcon\Di\Injection
 
     protected $_dependencyInjector;
 
-    protected $_statusCodes = array(Continue, Switching Protocols, Processing, OK, Created, Accepted, Non-Authoritative Information, No Content, Reset Content, Partial Content, Multi-status, Already Reported, Multiple Choices, Moved Permanently, Found, See Other, Not Modified, Use Proxy, Switch Proxy, Temporary Redirect, Bad Request, Unauthorized, Payment Required, Forbidden, Not Found, Method Not Allowed, Not Acceptable, Proxy Authentication Required, Request Time-out, Conflict, Gone, Length Required, Precondition Failed, Request Entity Too Large, Request-URI Too Large, Unsupported Media Type, Requested range not satisfiable, Expectation Failed, I'm a teapot, Unprocessable Entity, Locked, Failed Dependency, Unordered Collection, Upgrade Required, Precondition Required, Too Many Requests, Request Header Fields Too Large, Internal Server Error, Not Implemented, Bad Gateway, Service Unavailable, Gateway Time-out, HTTP Version not supported, Variant Also Negotiates, Insufficient Storage, Loop Detected, Network Authentication Required);
+    protected $_statusCodes;
 
     /**
      * Phalcon\Http\Response constructor

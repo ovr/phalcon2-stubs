@@ -414,11 +414,4 @@ class Request implements \Phalcon\Http\RequestInterface, \Phalcon\Di\InjectionAw
      */
 	public function getDigestAuth() {}
 
-    /**
-     * Gets payload from request's content
-     *
-     * @return array 
-     */
-	public function getPayload() {}
-
 }
